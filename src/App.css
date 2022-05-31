@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+.prevNextButtons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh 5vw;
+}
+
+.prevNextButtons > button {
+  width: 150px;
+  height: 40px;
+  margin: 0 25px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.prevNextButtons > .noPage {
+  background-color: gray;
+}
